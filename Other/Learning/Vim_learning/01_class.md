@@ -26,4 +26,9 @@ dd : delete a whole line.
 u: undo the last commands, 
 U: fix a whole line. 
 
+
 TODO: Lesson 3
+
+
+relative line: :set rnu
+absolute line: :set nu
