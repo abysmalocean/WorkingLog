@@ -81,13 +81,20 @@ If a class contains at least one pure virtual function, that makes the class "ab
 In practice, such classes need to be concretized by subclassing and implementing the virtual function(s).
 
 
+
+
 ## Things could do to improve the SimpleTracker. 
 
 1. Use soft confidence score. Use existence score to represent a track. 
 Two condition to confirm a track now. 
     1.  Total hit measurement > m_minMeasRequired
     2.  confidence > m_minConfidenceToInstantConfirm
+    3.  Track groomer also easier. 
+1. 
 
 
-1. Use bicycle-model for cycle and cars. 
-2. 
+2. Use bicycle-model for cycle and cars. 
+3. Multiple Thread Tracker. 
+4. Gating
+   1. Image embedding. 
+   2. 
