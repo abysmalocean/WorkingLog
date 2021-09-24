@@ -6,6 +6,7 @@
     - [wise_enum](#wise_enum)
       - [Examples](#examples)
   - [Language rules](#language-rules)
+    - [__function__](#function)
     - [std::experimental::optional](#stdexperimentaloptional)
     - [final](#final)
     - [std::underlying_type](#stdunderlying_type)
@@ -52,6 +53,27 @@ WISE_ENUM(Color, (GREEN, 2), RED)
 
 
 ## Language rules
+
+### __function__
+ 
+__func__ is an implicitly declared identifier that expands to a character array variable containing the function name when it is used inside of a function. 
+__PRETTY_FUNCTION__ is a gcc extension that is mostly the same as __FUNCTION__, except that for C++ functions it contains the "pretty" name of the function including the signature of the function. 
+```cpp
+$ cat test.cpp 
+#include <iostream>
+
+int main(int argc, char **argv)
+{
+    std::cout << __func__ << std::endl
+              << __FUNCTION__ << std::endl
+              << __PRETTY_FUNCTION__ << std::endl;
+}
+$ g++ test.cpp 
+$ ./a.out 
+main
+main
+int main(int, char**)
+```
 
 ### std::experimental::optional
 The class template std::experimental::optional manages an optional contained value, i.e. a value that semantically may not be present.
