@@ -27,3 +27,20 @@ Ability to work well with teams while growing and living our culture/values to a
 ### Ownership and Scope
 Helps define road map and architecture based on technology and business need. Tech
 
+<p align = "center">   <img width = "500" src = "images/res/CareerPath_2021-10-01-13-17-37.png"> </p>
+
+Individual Contributor. 
+P1 P2 **P3** P4, P5, P6. 
+Sr Engineer. Principal Engineer, Sr Principal Engineer, Fellow. 
+
+Leveling Criteria: 
+Six leveling criteria below.
+
+
+1. Impact : 
+
+- Focus on the job requirements and the nature of the work
+  - What is expected of an incumbent who is fully 
+
+Majority of time is spent on: 
+1. 
