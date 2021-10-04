@@ -20,4 +20,3 @@ Goal: finish the first merge request. And plot the 2D result.
    2. Still not sure about the global coordinate transform for ISN output. 
 3. Heading hypothesis: 
    1. Made several g-test cases and continual programming. 
-   2. 
